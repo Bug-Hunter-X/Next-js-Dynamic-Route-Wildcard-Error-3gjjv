@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in Next.js related to dynamic routes and server-side data fetching.  The bug occurs when a wildcard route is used with `getServerSideProps` or `getStaticProps`, and the provided parameter is invalid.  The solution demonstrates how to handle these invalid cases gracefully and prevent runtime errors.
